@@ -37,3 +37,8 @@ p {
 #github {
     background-color: green;
 }
+
+#photo {
+    height: 50%;
+    width: auto;
+}

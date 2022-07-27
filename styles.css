@@ -1,3 +1,39 @@
-h1 {
-    color: pink;
+html {
+    box-sizing: border-box;
+    min-width: 0;
+    min-height: 0;
+}
+.container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.tile {
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+    flex: auto;
+    align-items: center;
+}
+
+p {
+    display: inline-block;
+    font-size: 100px;
+}
+#aboutme {
+    background-color: red;
+}
+
+#projects {
+    background-color: yellow;
+}
+
+#linkedin {
+    background-color: blue;
+}
+
+#github {
+    background-color: green;
 }
